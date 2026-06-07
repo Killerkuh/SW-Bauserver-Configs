@@ -1,0 +1,82 @@
+template{
+
+	displayName()
+	sizeX()
+	sizeY()
+	sizeZ()
+
+	copyOffsetX()
+	copyOffsetY()
+	copyOffsetZ()
+
+	floorOffset()
+	waterOffset()
+
+	schematic()
+	defaultSkin()
+	skins[
+		{
+		name()
+		creator()
+		schemaitc()
+		testblockSchemaitc()
+		buildSchematic()
+		disabled()
+		}
+	]
+
+	build {
+
+		offsetX()
+		offsetY()
+		offsetZ()
+
+		sizeZ()
+		sizeY()
+		sizeX()
+
+		schematic()
+
+		extensionPositiveZ()
+		extensionPositiveY()
+		extensionPositiveX()
+
+		extensionNegativeZ()
+		extensionNegativeY()
+		extensionNegativeX()
+
+		copyOffsetZ()
+		 copyOffsetY()
+		copyOffsetX()
+
+	}
+testblock {
+
+
+		offsetX()
+		offsetY()
+		offsetZ()
+
+		sizeZ()
+		sizeY()
+		sizeX()
+
+		schematic()
+
+		extensionPositiveZ()
+		extensionPositiveY()
+		extensionPositiveX()
+
+		extensionNegativeZ()
+		extensionNegativeY()
+		extensionNegativeX()
+
+		copyOffsetZ()
+		 copyOffsetY()
+		copyOffsetX()
+
+	}
+
+}
+
+
