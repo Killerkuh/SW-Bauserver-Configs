@@ -80,3 +80,82 @@ testblock {
 }
 
 
+
+MWG{
+
+	displayName(MWG)
+	sizeX(102)
+	sizeY(49)
+	sizeZ(67)
+
+	copyOffsetX()
+	copyOffsetY()
+	copyOffsetZ()
+
+	floorOffset(0)
+	waterOffset(0)
+
+	schematic(MWGSRG)
+
+	build {
+
+		offsetX()
+		offsetY()
+		offsetZ()
+
+		sizeZ(22)
+		sizeY(26)
+		sizeX(37)
+
+		schematic(MWGSBR)
+
+		extensionPositiveZ(7)
+		extensionPositiveY(7)
+		extensionPositiveX(7)
+
+		extensionNegativeZ(7)
+		extensionNegativeY(0)
+		extensionNegativeX(7)
+
+		copyOffsetZ()
+		 copyOffsetY()
+		copyOffsetX()
+
+	}
+testblock {
+
+
+		offsetX()
+		offsetY()
+		offsetZ()
+
+
+		sizeZ(22)
+		sizeY(26)
+		sizeX(37)
+
+		schematic(MWGSTB)
+
+		extensionPositiveZ(7)
+		extensionPositiveY(7)
+		extensionPositiveX(7)
+
+		extensionNegativeZ(7)
+		extensionNegativeY(0)
+		extensionNegativeX(7)
+
+		copyOffsetZ()
+		copyOffsetY()
+		copyOffsetX()
+
+	}
+
+}
+
+
+
+
+
+
+
+
